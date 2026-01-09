@@ -48,3 +48,70 @@ body{
 .btn:hover{
     color: rgb(229, 255, 80);
 }
+/* banner */
+#banner{
+    width: 100%px;
+    height: 700px;
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#b-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.b-content{
+    width: 770px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+}
+.b-content .banner-text{
+    color: #30B868;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 18px;
+    gap: 6;
+    background-color: #FFFFFF;
+}
+
+.b-content h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.b-content h1 .heading{
+    color: #30AC66;
+}
+.b-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.b-content .brn-2{
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+.b-content .btn-2 .btn-4{
+    background: transparent;
+}
+.b-content .btn-4{
+  background: transparent;
+  border: 1px solid rgb(170, 119, 163);
+  color: #FFFFFF;
+  transition: 0.3s;  
+}
