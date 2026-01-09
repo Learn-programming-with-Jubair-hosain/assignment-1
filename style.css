@@ -115,12 +115,22 @@ body{
   color: #FFFFFF;
   transition: 0.3s;  
 }
+#notes .header-text{
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  margin: 36px 120px;
+}
+#notes p{
+  color: #627382;
+}
 .notes-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   gap: 24px;
+
 }
 
 .notes-content .notes-card {
@@ -134,12 +144,14 @@ body{
   max-width: 322px;
   padding: 24px;
   border-radius: 8px;
-  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.079);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.178);
   background: rgb(248, 248, 248);
 }
 
 .notes-content .notes-card img {
   width: 60px;
+  background-color: orangered;
+  border-radius: 40px;
 }
 
 .notes-content .notes-card h3 {
@@ -154,7 +166,7 @@ body{
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  columns: rgba(98, 115, 130, 1);
+  color: #627382;
 }
 .branin-contet {
   display: flex;
@@ -206,13 +218,24 @@ body{
   width: 20px;
 }
 
-.brain-text .text-group h5 {
+.brain-text .text-group{
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   font-style: Medium;
   color: rgba(0, 25, 49, 1);
 }
+
+#ready{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 120px ;
+}
+#ready p{
+  color: #627382;
+}
+
 #footer {
   padding: 120px 120px 30px 120px;
   background: rgba(0, 25, 49, 1);
@@ -245,8 +268,11 @@ body{
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  text-align: center;
   border-top: 1px solid rgba(229, 231, 235, 0.105);
   padding-top: 30px;
   color: rgba(250, 250, 250, 1);
+}
+#footer.footer-text{
+  align-items: center;
+  text-align: center;
 }
